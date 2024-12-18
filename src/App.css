@@ -1,38 +1,94 @@
 .App {
-  text-align: center;
+  background-color: #fef7ed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.introduction {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  color: #8f7b6b;
+  font-size: 6.5rem;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-child {
+  margin-bottom: 0;
+  line-height: 6.5rem;
+}
+
+.dogCat {
+  height: 60vh; 
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 2px solid #ccc;
+  margin-left: 100px;
+}
+
+.action {
+  min-height: 100vh;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.option {
+  margin-top: 24px;
+}
+
+.list-option {
+  margin-bottom: 8px;
+}
+
+.list-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.btn-them, .btn-confirm, .btn-xoa {
+  background-color: white !important;
+  border: 1px solid white !important;
+  min-width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-xoa {
+  margin: 0 24px;
+}
+
+.info {
+  height: 70vh;
+  background-color: white;
+  box-shadow: 0 0 0 5px black,
+              0 4px 8px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; 
+}
+
+.info-child {
+  height: 65vh;
+  width: 90%;
+  background-color: #fef7ed;
+  border: 1px solid black; 
+  overflow-y: auto; 
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  padding-left: 20px;
 }
